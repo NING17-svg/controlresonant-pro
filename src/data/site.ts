@@ -54,7 +54,7 @@ export const site: SiteConfig = {
     },
   ],
   author: "CONTROL Resonant Guide",
-  gaMeasurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "",
+  gaMeasurementId: "G-LD9YZXL5CX",
   bingSiteAuthCode: process.env.NEXT_PUBLIC_BING_SITE_AUTH_CODE || "",
   officialSources: [
     {
