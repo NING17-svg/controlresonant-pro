@@ -1,0 +1,172 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "fixed-characters-en-US",
+    "translationKey": "characters",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/characters",
+    "alternates": {
+      "en-US": "/characters"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "fixed-editions-en-US",
+    "translationKey": "editions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/editions",
+    "alternates": {
+      "en-US": "/editions"
+    }
+  },
+  {
+    "id": "guides",
+    "translationKey": "guides",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides",
+    "alternates": {
+      "en-US": "/guides"
+    }
+  },
+  {
+    "id": "fixed-new-player-primer-en-US",
+    "translationKey": "new-player-primer",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/new-player-primer",
+    "alternates": {
+      "en-US": "/new-player-primer"
+    }
+  },
+  {
+    "id": "fixed-oldest-house-en-US",
+    "translationKey": "oldest-house",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oldest-house",
+    "alternates": {
+      "en-US": "/oldest-house"
+    }
+  },
+  {
+    "id": "fixed-overview-en-US",
+    "translationKey": "overview",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/overview",
+    "alternates": {
+      "en-US": "/overview"
+    }
+  },
+  {
+    "id": "fixed-platforms-en-US",
+    "translationKey": "platforms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/platforms",
+    "alternates": {
+      "en-US": "/platforms"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "fixed-release-status-en-US",
+    "translationKey": "release-status",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/release-status",
+    "alternates": {
+      "en-US": "/release-status"
+    }
+  },
+  {
+    "id": "fixed-system-requirements-en-US",
+    "translationKey": "system-requirements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/system-requirements",
+    "alternates": {
+      "en-US": "/system-requirements"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "fixed-vs-original-control-en-US",
+    "translationKey": "vs-original-control",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/vs-original-control",
+    "alternates": {
+      "en-US": "/vs-original-control"
+    }
+  },
+  {
+    "id": "fixed-walkthrough-en-US",
+    "translationKey": "walkthrough",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/walkthrough",
+    "alternates": {
+      "en-US": "/walkthrough"
+    }
+  },
+  {
+    "id": "wiki",
+    "translationKey": "wiki",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/wiki",
+    "alternates": {
+      "en-US": "/wiki"
+    }
+  }
+]

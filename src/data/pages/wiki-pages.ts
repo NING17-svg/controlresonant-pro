@@ -12,69 +12,48 @@ export const wikiPages: PageContent[] = [
     pageType: "wiki",
     presentation: { shell: "hub" },
     h1: `${site.gameName} Wiki`,
-    seoTitle: `${site.gameName} Wiki | Facts, Systems, and Starter Notes`,
+    seoTitle: `${site.gameName} Wiki | Identity, Setting, and Reference`,
     metaDescription:
-      "A neutral wiki page template for official facts, game overview notes, systems, platforms, and starter references.",
+      "CONTROL Resonant wiki hub: identity, characters, setting, and platform reference collected from the Steam store and Remedy news.",
     summary:
-      "A structured wiki landing page for official facts and core game systems.",
+      "A wiki hub for CONTROL Resonant: identity, characters, oldest-house setting, and platform reference.",
     hero: {
       eyebrow: "Wiki",
       subtitle:
-        "Collect official facts, systems, platforms, and starter references in one stable page.",
+        "Collect official facts, characters, setting, and reference material for CONTROL Resonant in one place.",
       ctas: [
-        { label: "Read Guides", href: "/guides" },
-        { label: "Check FAQ", href: "/faq" },
+        { label: "Overview", href: "/overview" },
+        { label: "Characters", href: "/characters" },
       ],
     },
     quickAnswer:
-      "Use this wiki page as the verified fact hub for the game. Do not add unconfirmed mechanics, maps, characters, items, or dates.",
+      "The CONTROL Resonant wiki hub lists identity, characters, the Oldest House setting, and platform reference. All current-game facts are from the Steam store snapshot 2026-09-19, SteamDB metadata, and Remedy Entertainment news posts.",
     keyFacts: [
-      { label: "Fact source", value: "Official sources only" },
-      { label: "Content depth", value: "Starter wiki notes" },
-      { label: "Update rule", value: "Expand after launch signals appear" },
+      { label: "Game", value: "CONTROL Resonant (Steam AppID 3669870)" },
+      { label: "Developer", value: "Remedy Entertainment" },
+      { label: "Release", value: "September 24, 2026" },
+      { label: "Source rule", value: "Official facts only; dated status notes for unannounced items" },
     ],
     modules: [
       {
-        id: "overview",
+        id: "wiki-launch",
         type: "prose",
-        heading: "Game overview",
+        heading: "Launch-Day Wiki",
         body:
-          "Replace this overview with confirmed information from official store pages, press kits, developer posts, or publisher pages. Keep uncertain details out of the page.",
-      },
-      {
-        id: "systems",
-        type: "prose",
-        heading: "Systems to document",
-        body:
-          "Use this section for confirmed systems such as combat, progression, exploration, multiplayer, crafting, quests, or modes. If official sources do not confirm a system, leave it out.",
-      },
-      {
-        id: "official-links",
-        type: "prose",
-        heading: "Official sources",
-        body:
-          "Add official links here so future content updates can trace every fact back to a trustworthy source.",
-        links: site.officialSources,
-      },
-      {
-        id: "reference-coverage",
-        type: "data-table",
-        heading: "Reference Coverage",
-        columns: [
-          { key: "category", label: "Category" },
-          { key: "status", label: "Status" },
-          { key: "source", label: "Source Rule" },
-        ],
-        rows: [
-          { category: "Core systems", status: "Starter coverage", source: "Official sources" },
-          { category: "Guides", status: "Expand with evidence", source: "Verified play research" },
+          "Use the overview page for the full identity answer, characters for Dylan Faden and the antagonist roster, oldest-house for the setting, platforms for per-platform detail, and editions for the Steelbook and pre-order bonus lineup.",
+        links: [
+          { label: "Overview", href: "/overview", description: "Identity, developer, and launch window." },
+          { label: "Characters", href: "/characters", description: "Dylan Faden and the antagonist roster." },
+          { label: "Oldest House", href: "/oldest-house", description: "Setting and warped Manhattan expansion." },
+          { label: "Platforms", href: "/platforms", description: "Per-platform detail for PC, PS5, Xbox Series." },
+          { label: "Editions", href: "/editions", description: "Standard, Steelbook, and pre-order bonuses." },
         ],
       },
     ],
-    faqIds: ["platforms-known"],
-    relatedPageIds: ["guides", "release-date", "faq"],
+    faqIds: [],
+    relatedPageIds: ["fixed-overview-en-US", "fixed-characters-en-US", "fixed-oldest-house-en-US", "fixed-platforms-en-US", "fixed-editions-en-US"],
     schemaTypes: ["CollectionPage", "BreadcrumbList"],
-    sourceStatus: "placeholder",
-    lastReviewed: "2026-06-18",
+    sourceStatus: "official",
+    lastReviewed: "2026-09-19",
   },
 ];

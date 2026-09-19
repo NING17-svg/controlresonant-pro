@@ -12,54 +12,46 @@ export const guidePages: PageContent[] = [
     pageType: "guides",
     presentation: { shell: "hub" },
     h1: `${site.gameName} Guides`,
-    seoTitle: `${site.gameName} Guides | Beginner Tips and Starter Help`,
+    seoTitle: `${site.gameName} Guides | Walkthrough and Mission Help`,
     metaDescription:
-      "A starter guides page template for beginner help, early decisions, systems, and future walkthrough categories.",
+      "CONTROL Resonant guides hub: walkthrough skeleton, characters reference, and setting primer until the launch-day mission walkthrough is available.",
     summary:
-      "A guide index for beginner help and future walkthrough expansion.",
+      "A launch-day guides index for CONTROL Resonant. The walkthrough page fills post-launch with the verified main-missions walkthrough, and the characters and oldest-house pages provide supporting reference.",
     hero: {
       eyebrow: "Guides",
       subtitle:
-        "Start with safe, general guide categories, then expand into detailed walkthroughs after verified demand appears.",
+        "Launch-day guides for CONTROL Resonant: walkthrough skeleton, characters reference, and setting primer until verified post-launch content is available.",
       ctas: [
-        { label: "Open Wiki", href: "/wiki" },
-        { label: "Release Info", href: "/release-date" },
+        { label: "Walkthrough", href: "/walkthrough" },
+        { label: "Characters", href: "/characters" },
       ],
     },
     quickAnswer:
-      "V1 guides should organize the future help structure without inventing unverified walkthrough details.",
+      "The CONTROL Resonant guides hub collects the walkthrough skeleton, the characters reference, the Oldest House setting page, and the new-player primer in one place. Verified mission content fills the walkthrough page post-launch.",
     keyFacts: [
-      { label: "Guide depth", value: "Starter structure" },
-      { label: "Avoid", value: "Unverified builds, loot, maps, or quest steps" },
-      { label: "Next upgrade", value: "Full guide pages after content research" },
+      { label: "Game status", value: "Unreleased as of 2026-09-19" },
+      { label: "Walkthrough", value: "Skeleton page, fills post-launch" },
+      { label: "Source rule", value: "Only confirmed content from Steam store and Remedy news" },
     ],
     modules: [
       {
-        id: "beginner",
+        id: "guides-launch",
         type: "prose",
-        heading: "Beginner guide",
+        heading: "Launch-Day Controls",
         body:
-          "Use this section for safe onboarding advice grounded in official descriptions. Avoid specific tactics unless they are verified by official material or later play research.",
-      },
-      {
-        id: "systems",
-        type: "prose",
-        heading: "Systems guide categories",
-        body:
-          "Add confirmed categories such as combat, crafting, classes, exploration, quests, equipment, difficulty, or co-op only after official sources support them.",
-      },
-      {
-        id: "future-guides",
-        type: "prose",
-        heading: "Future guide expansion",
-        body:
-          "After launch, split high-demand topics into dedicated pages. V1 keeps this page as a stable guide index so the site is useful without pretending to be complete.",
+          "Use the walkthrough page for the expected Remedy action-adventure structure, the characters page for Dylan Faden and the antagonist roster, the oldest-house page for the setting, and the new-player primer for prior Remedyverse continuity questions.",
+        links: [
+          { label: "Walkthrough", href: "/walkthrough", description: "Skeleton page, fills post-launch." },
+          { label: "Characters", href: "/characters", description: "Dylan Faden, the Aberrant, the Hiss, the Mold." },
+          { label: "Oldest House", href: "/oldest-house", description: "Setting and warped Manhattan expansion." },
+          { label: "New Player Primer", href: "/new-player-primer", description: "Required prior Remedyverse knowledge." },
+        ],
       },
     ],
-    faqIds: ["guide-depth"],
-    relatedPageIds: ["wiki", "release-date", "faq"],
-    schemaTypes: ["CollectionPage", "BreadcrumbList", "FAQPage"],
-    sourceStatus: "placeholder",
-    lastReviewed: "2026-06-18",
+    faqIds: [],
+    relatedPageIds: ["fixed-walkthrough-en-US", "fixed-characters-en-US", "fixed-oldest-house-en-US", "fixed-new-player-primer-en-US"],
+    schemaTypes: ["CollectionPage", "BreadcrumbList"],
+    sourceStatus: "internal",
+    lastReviewed: "2026-09-19",
   },
 ];
