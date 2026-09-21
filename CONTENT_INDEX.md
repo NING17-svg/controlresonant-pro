@@ -21,6 +21,17 @@ hreflang, sitemap, and route-manifest validation.
 | `/contact` | `src/data/pages/site-pages.ts` | Utility | contact Template Game Guide | Corrections and source updates | About | Trust | Contact channel pending. |
 | `/privacy-policy` | `src/data/pages/site-pages.ts` | Legal | privacy policy | Privacy and analytics | Terms | Trust | GA4 only when configured. |
 | `/terms` | `src/data/pages/site-pages.ts` | Legal | terms of use | Site use expectations | Privacy Policy | Trust | Keep unofficial disclaimer clear. |
+| `/overview` | `src/data/pages/fixed-pages.ts` | Guide | CONTROL Resonant overview | Identity, developer, launch window | Release Status / Platforms / Characters / Oldest House | Supporting hub | Launch reference hub for the sequel. |
+| `/release-status` | `src/data/pages/fixed-pages.ts` | Release | CONTROL Resonant release date | Unlock time, pre-load, embargo, Game Pass | Editions / Platforms / Aberrant & Abilities | Supporting hub | Confirmed Sept 24 14:00 GMT unlock; Sept 18 embargo lift. |
+| `/platforms` | `src/data/pages/fixed-pages.ts` | Guide | CONTROL Resonant platforms | Per-platform notes including GeForce NOW and Mac | Release Status / Editions / System Requirements | Supporting hub | PC, PS5, Xbox Series, GeForce NOW day one, Mac later 2026. |
+| `/editions` | `src/data/pages/fixed-pages.ts` | Guide | CONTROL Resonant editions | Standard, Steelbook, pre-order bonuses | Release Status / Platforms / Overview | Supporting hub | Physical editions ship October 15. |
+| `/aberrant-abilities` | `src/data/pages/fixed-pages.ts` | Guide | CONTROL Resonant Aberrant abilities | Forms, Reach / Shift / Gravitational Anomalies, the Gap | Characters / Release Status / Walkthrough | Supporting hub | Lists four confirmed forms and Gap progression. |
+| `/system-requirements` | `src/data/pages/fixed-pages.ts` | Guide | CONTROL Resonant system requirements | Minimum PC specs | Release Status / Platforms / Overview | Supporting hub | Steam store minimum tier only. |
+| `/characters` | `src/data/pages/fixed-pages.ts` | Guide | CONTROL Resonant characters | Dylan Faden, antagonists, the Aberrant | Oldest House / New Player Primer / Aberrant & Abilities | Supporting hub | Links to Aberrant & Abilities page. |
+| `/oldest-house` | `src/data/pages/fixed-pages.ts` | Guide | CONTROL Resonant Oldest House | Setting and warped Manhattan expansion | Characters / vs Original CONTROL / Overview | Supporting hub | Failed lockdown framing. |
+| `/walkthrough` | `src/data/pages/fixed-pages.ts` | Guide | CONTROL Resonant walkthrough | Mission skeleton, post-launch expansion | Characters / Oldest House / New Player Primer | Supporting hub | Fills after launch. |
+| `/new-player-primer` | `src/data/pages/fixed-pages.ts` | Guide | CONTROL Resonant new player primer | Prior Remedyverse knowledge required | Characters / vs Original CONTROL / Overview | Supporting hub | No prerequisite policy announced. |
+| `/vs-original-control` | `src/data/pages/fixed-pages.ts` | Guide | CONTROL Resonant vs original | Differences from the 2019 original | Characters / Oldest House / New Player Primer | Supporting hub | Side-by-side comparison table. |
 
 ## Generated Route Families
 
@@ -31,17 +42,19 @@ hreflang, sitemap, and route-manifest validation.
 
 ## Content Clusters
 
-- Launch facts: `/release-date`, `/faq`
-- Official facts and safe guide structure: `/wiki`, `/guides`
+- Launch facts: `/release-status`, `/platforms`, `/editions`, `/aberrant-abilities`
+- Official facts and safe guide structure: `/overview`, `/wiki`, `/guides`, `/system-requirements`, `/characters`, `/oldest-house`, `/walkthrough`, `/new-player-primer`, `/vs-original-control`
 - Evergreen hub and trust: `/`, `/about`, `/contact`, `/privacy-policy`, `/terms`
 
 ## Internal Linking Map
 
-- Homepage should link to the most current high-demand pages.
+- Homepage should link to the most current high-demand pages (Release Status, Aberrant & Abilities, Platforms).
 - Wiki should link to guide and release pages.
 - Guides should link to wiki and release pages.
-- Release Date should link to FAQ and official sources.
+- Release Status should link to FAQ, Editions, Platforms, and Aberrant & Abilities.
 - FAQ should include all current high-demand answer pages.
+- Characters should link to Aberrant & Abilities for weapon/ability detail.
+- Aberrant & Abilities should link back to Characters, Release Status, and Walkthrough.
 
 ## Open Questions
 

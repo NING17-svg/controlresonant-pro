@@ -85,63 +85,100 @@ export const fixedPages: PageContent[] = [
     url: "/release-status",
     pageType: "release",
     presentation: { shell: "content", variant: "reading-right-rail" },
-    h1: "CONTROL Resonant Release Date - Status and Launch Info",
-    seoTitle: "CONTROL Resonant Release Date - Status and Launch Info",
+    h1: "CONTROL Resonant Release Date, Pre-Load, and Launch Day",
+    seoTitle: "CONTROL Resonant Release Date, Pre-Load, and Launch Day",
     metaDescription:
-      "CONTROL Resonant release date is confirmed for September 24, 2026 on PC, PS5, and Xbox Series. Game Pass, review embargo, and DLC status as of 2026-09-19.",
+      "CONTROL Resonant unlocks worldwide on September 24, 2026 at 14:00 GMT. Review embargo lifted Sept 18, pre-load Sept 20 (Deluxe) / Sept 22 (Standard), PS5 48-hour early access for Deluxe, Game Pass not at launch, GeForce NOW day one, Mac later in 2026.",
     summary:
-      "CONTROL Resonant release date is confirmed for September 24, 2026 worldwide, with launch on PC via Steam, PlayStation 5, and Xbox Series. Game Pass, review embargo, and DLC are not announced as of 2026-09-19.",
+      "CONTROL Resonant unlocks worldwide on September 24, 2026 at 14:00 GMT. Review embargo lifted Sept 18 at 6:00 AM PT. Pre-load opens Sept 20 (Deluxe) / Sept 22 (Standard). PS5 Deluxe gets 48-hour early access. Game Pass is not at launch; GeForce NOW is day one; Mac arrives later in 2026; physical editions ship October 15.",
     hero: {
       eyebrow: "Release Status",
       subtitle:
-        "Confirm CONTROL Resonant release date, launch platforms, regional availability, and reviews/Game Pass status.",
+        "Confirm CONTROL Resonant unlock time, pre-load windows, review embargo, and which subscription services carry the game at launch.",
       ctas: [
         { label: "Editions", href: "/editions" },
         { label: "Platforms", href: "/platforms" },
-        { label: "System Requirements", href: "/system-requirements" },
+        { label: "Aberrant & Abilities", href: "/aberrant-abilities" },
       ],
     },
     quickAnswer:
-      "The CONTROL Resonant release date is confirmed for September 24, 2026 worldwide, developed and published by Remedy Entertainment. Launch platforms are PC via Steam, PlayStation 5, and Xbox Series, with pre-orders already live on Steam. As of 2026-09-19, Game Pass inclusion, the review embargo, regional unlock times, and any DLC plans have not been announced by Remedy.",
+      "CONTROL Resonant unlocks worldwide on September 24, 2026 at 14:00 GMT. The review embargo lifted on September 18 at 6:00 AM PT. Pre-load opens September 20 for Deluxe editions and September 22 for Standard. PS5 Deluxe owners get 48-hour early access starting September 22. Game Pass is not included at launch, GeForce NOW carries it day one, Mac arrives later in 2026, and physical editions ship October 15.",
     keyFacts: [
-      { label: "Release date", value: "September 24, 2026" },
-      { label: "Status", value: "Confirmed by Remedy + Steam store" },
-      { label: "Platforms", value: "PC (Steam), PS5, Xbox Series" },
-      { label: "Pre-order", value: "Live on Steam with two bonus items" },
-      { label: "Game Pass", value: "Not announced as of 2026-09-19" },
-      { label: "Review embargo", value: "Not lifted as of 2026-09-19" },
-      { label: "Regional unlock time", value: "Not announced as of 2026-09-19" },
-      { label: "DLC plans", value: "Not announced as of 2026-09-19" },
+      { label: "Global unlock", value: "September 24, 2026 at 14:00 GMT" },
+      { label: "Review embargo", value: "Lifted September 18, 2026 at 6:00 AM PT" },
+      { label: "Pre-load (Deluxe)", value: "September 20, 2026" },
+      { label: "Pre-load (Standard)", value: "September 22, 2026" },
+      { label: "PS5 48-hour early access", value: "September 22, 2026 (Deluxe only)" },
+      { label: "Game Pass at launch", value: "Not included" },
+      { label: "GeForce NOW", value: "Day one" },
+      { label: "Mac release", value: "Later in 2026" },
+      { label: "Physical editions", value: "October 15, 2026" },
     ],
     modules: [
       {
-        id: "release-confirmed",
+        id: "release-unlock",
         type: "prose",
-        heading: "CONTROL Resonant Release Date Confirmed by Remedy",
+        heading: "Global Unlock Time on September 24",
         body:
-          "The Steam store page for AppID 3669870 lists a release date of September 24, 2026, and Remedy Entertainment's own news post mirrors that date with a 'Launches Worldwide on September 24' framing. The date is consistent across both official sources and is the only release date currently listed for the title. No delay has been announced, and the title is not in early access on Steam.",
+          "CONTROL Resonant unlocks simultaneously worldwide on September 24, 2026 at 14:00 GMT. The 14:00 GMT anchor translates to 7:00 AM PT, 10:00 AM ET, 11:00 AM BST, 15:00 CEST, 16:00 KST/JST crossover, and the equivalent regional stamp in BR/SA timezones. Insider Gaming's published embargo schedule and Remedy's own launch communication both anchor on this single global timestamp, so players should plan to start the session at the regional equivalent rather than expecting per-region staggered unlocks.",
       },
       {
-        id: "release-platforms",
+        id: "release-preload",
         type: "prose",
-        heading: "Launch Platforms and Pre-Order Availability",
+        heading: "Pre-Load Dates and What to Install",
         body:
-          "CONTROL Resonant is launching on three platforms simultaneously: PC via Steam (AppID 3669870) with pre-order live, PlayStation 5 with pre-order available through the PlayStation Store, and Xbox Series with pre-order available through the Xbox Store. The Steam listing confirms two pre-order bonus items: the Hiss Corruption Outfit and the Pickpocket's Tool Artifact. Physical editions and a Steelbook variant are part of the launch lineup; a collector's edition is not confirmed as of 2026-09-19.",
+          "Pre-load opens September 20, 2026 for Deluxe editions and September 22, 2026 for the Standard edition on every platform that supports pre-loading (PC via Steam, PlayStation 5, Xbox Series). Pre-loading lets the client finish downloading in the background so the September 24 unlock does not require a multi-hour download on launch day. Console players should reserve at least 120 GB of SSD space to match the published minimum storage line.",
       },
       {
-        id: "release-status-notes",
+        id: "release-early-access",
+        type: "prose",
+        heading: "PS5 48-Hour Early Access for Deluxe Owners",
+        body:
+          "PS5 Deluxe edition owners receive 48-hour early access starting September 22, 2026 at the same 14:00 GMT anchor. This window is the only confirmed way to play CONTROL Resonant before the global September 24 unlock. PC and Xbox Series editions do not publish a parallel early-access window in the published launch plan, so the September 22 PS5 Deluxe window is platform- and edition-specific.",
+      },
+      {
+        id: "release-embargo",
         type: "callout",
-        tone: "caution",
-        title: "Status as of 2026-09-19",
+        tone: "confirmed",
+        title: "Review Embargo Lifted September 18",
         body:
-          "Game Pass: Not announced as of 2026-09-19. The Steam store page does not list Game Pass inclusion, and no Remedy news post has confirmed Xbox Game Pass availability. Review embargo: Not lifted as of 2026-09-19. Remedy has not announced a pre-launch review window. Regional unlock times: Not announced as of 2026-09-19. The Steam store lists September 24, 2026 without a per-timezone unlock stamp. DLC: Not announced as of 2026-09-19. No post-launch content plan has been confirmed by Remedy.",
+          "The review embargo lifted on September 18, 2026 at 6:00 AM PT. Major outlets including PC Gamer published their launch reviews on or after this stamp. PC Gamer's review notes combat repetition as a known weakness, which is useful context for players planning a melee-heavy Dylan build on day one.",
+      },
+      {
+        id: "release-services",
+        type: "prose",
+        heading: "Game Pass, GeForce NOW, and Mac",
+        body:
+          "Game Pass: CONTROL Resonant is not included at launch. Microsoft and Remedy have not announced a same-day Game Pass tier for the title, so Xbox players who want it day one must buy it through the Xbox Store. GeForce NOW: CONTROL Resonant streams day one on GeForce NOW, so subscribers can play on under-spec PCs, Macs that do not yet have a native client, or any other supported device without a local install. Mac: a native macOS client arrives later in 2026, after the September 24 Windows launch. Players on macOS can use GeForce NOW in the meantime.",
+      },
+      {
+        id: "release-physical",
+        type: "prose",
+        heading: "Physical Editions Ship October 15",
+        body:
+          "Physical editions (Standard disc and Steelbook on PS5 / Xbox Series) ship October 15, 2026, three weeks after the September 24 digital launch. Players who pre-order a physical copy still receive the digital pre-order bonuses (Hiss Corruption Outfit, Pickpocket's Tool Artifact) tied to their account on launch day, even though the disc arrives later.",
+      },
+      {
+        id: "release-schedule",
+        type: "schedule",
+        heading: "Launch Week at a Glance",
+        items: [
+          { label: "Review embargo lifts", timing: "Sept 18, 6:00 AM PT", detail: "PC Gamer and other outlets publish reviews.", tone: "confirmed" },
+          { label: "Deluxe pre-load opens", timing: "Sept 20", detail: "Pre-load available on PC, PS5, Xbox Series for Deluxe owners.", tone: "confirmed" },
+          { label: "PS5 Deluxe 48-hour early access", timing: "Sept 22, 14:00 GMT", detail: "PS5 Deluxe only, 48-hour exclusive window before global unlock.", tone: "confirmed" },
+          { label: "Standard pre-load opens", timing: "Sept 22", detail: "Pre-load available for the Standard edition across all platforms.", tone: "confirmed" },
+          { label: "Global unlock", timing: "Sept 24, 14:00 GMT", detail: "Worldwide launch on PC, PS5, and Xbox Series.", tone: "confirmed" },
+          { label: "GeForce NOW day one", timing: "Sept 24", detail: "Streaming available on GeForce NOW from launch.", tone: "confirmed" },
+          { label: "Physical editions ship", timing: "Oct 15", detail: "Standard and Steelbook discs ship to retailers and pre-order customers.", tone: "confirmed" },
+          { label: "Mac native client", timing: "Later in 2026", detail: "macOS build follows the Windows launch.", tone: "confirmed" },
+        ],
       },
     ],
-    faqIds: ["what-is-release-date", "is-control-resonant-on-game-pass", "has-review-embargo-lifted"],
-    relatedPageIds: ["fixed-editions-en-US", "fixed-platforms-en-US", "fixed-system-requirements-en-US", "fixed-overview-en-US"],
+    faqIds: ["what-is-release-date", "is-control-resonant-on-game-pass", "has-review-embargo-lifted", "when-can-i-preload", "is-control-resonant-on-geforce-now", "when-do-physical-editions-ship"],
+    relatedPageIds: ["fixed-editions-en-US", "fixed-platforms-en-US", "fixed-system-requirements-en-US", "fixed-overview-en-US", "fixed-aberrant-abilities-en-US"],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-19",
+    lastReviewed: "2026-09-22",
   },
 
   // ──────────────────────────────────────────────────────────────────────────
@@ -173,12 +210,13 @@ export const fixedPages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "The CONTROL Resonant editions lineup includes a Standard digital edition on every launch platform and a Steelbook physical edition on consoles. Pre-ordering from the Steam store unlocks two bonus items: the Hiss Corruption Outfit and the Pickpocket's Tool Artifact. A collector's edition is not confirmed by Remedy as of 2026-09-19; the Steelbook variant is the highest physical tier listed on the storefronts at this time.",
+      "The CONTROL Resonant editions lineup includes a Standard digital edition on every launch platform and a Steelbook physical edition on consoles. Pre-ordering from the Steam store unlocks two bonus items: the Hiss Corruption Outfit and the Pickpocket's Tool Artifact. Physical editions ship October 15, 2026. A collector's edition is not confirmed; the Steelbook variant is the highest physical tier listed on the storefronts at this time.",
     keyFacts: [
       { label: "Standard edition", value: "Available on every launch platform" },
-      { label: "Steelbook edition", value: "Physical case on PS5 + Xbox Series" },
+      { label: "Steelbook edition", value: "Physical case on PS5 + Xbox Series, ships October 15" },
       { label: "Pre-order bonuses", value: "Hiss Corruption Outfit, Pickpocket's Tool Artifact" },
-      { label: "Collector's edition", value: "Not confirmed as of 2026-09-19" },
+      { label: "Physical ship date", value: "October 15, 2026" },
+      { label: "Collector's edition", value: "Not confirmed as of 2026-09-22" },
     ],
     modules: [
       {
@@ -193,7 +231,7 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "Steelbook Edition Contents",
         body:
-          "The Steelbook edition is confirmed for CONTROL Resonant on consoles and features a Steelbook case in place of the standard plastic amaray packaging. Remedy has confirmed the Steelbook as a physical-tier option for players who want a metal case on day one rather than the Standard plastic case. The Steelbook edition includes the same base game and the same digital pre-order bonuses as the Standard edition; the difference is the physical packaging, not extra in-game content. The Steelbook variant is most often associated with the PS5 listing on retailer pages, but Remedy has not limited the SKU to a single console. PC players receive a digital-only Standard edition; the Steelbook case is a console-side product.",
+          "The Steelbook edition is confirmed for CONTROL Resonant on consoles and features a Steelbook case in place of the standard plastic amaray packaging. Remedy has confirmed the Steelbook as a physical-tier option for players who want a metal case. The Steelbook edition includes the same base game and the same digital pre-order bonuses as the Standard edition; the difference is the physical packaging, not extra in-game content. Steelbook discs ship October 15, 2026 — three weeks after the September 24 digital unlock — even though digital pre-order bonuses apply on launch day.",
       },
       {
         id: "editions-bonuses",
@@ -208,7 +246,7 @@ export const fixedPages: PageContent[] = [
         tone: "caution",
         title: "Collector's Edition Status",
         body:
-          "Status as of 2026-09-19: a CONTROL Resonant collector's edition is not confirmed by Remedy Entertainment. Autocomplete signals such as 'control resonant collector's edition' reflect player demand, but no official collector's SKU has been announced on the Steam store, PlayStation Store, or Xbox Store at the time of this snapshot. The Steelbook edition remains the highest physical tier currently listed.",
+          "Status as of 2026-09-22: a CONTROL Resonant collector's edition is not confirmed by Remedy Entertainment. Autocomplete signals such as 'control resonant collector's edition' reflect player demand, but no official collector's SKU has been announced on the Steam store, PlayStation Store, or Xbox Store at the time of this snapshot. The Steelbook edition remains the highest physical tier currently listed.",
       },
       {
         id: "editions-platform-table",
@@ -222,16 +260,16 @@ export const fixedPages: PageContent[] = [
         ],
         rows: [
           { platform: "PC (Steam)", standard: "Yes (digital)", steelbook: "Not applicable", bonuses: "Hiss Corruption Outfit, Pickpocket's Tool Artifact" },
-          { platform: "PlayStation 5", standard: "Yes (digital + physical)", steelbook: "Yes (physical)", bonuses: "Hiss Corruption Outfit, Pickpocket's Tool Artifact" },
-          { platform: "Xbox Series", standard: "Yes (digital + physical)", steelbook: "Yes (physical)", bonuses: "Hiss Corruption Outfit, Pickpocket's Tool Artifact" },
+          { platform: "PlayStation 5", standard: "Yes (digital + physical)", steelbook: "Yes (physical, ships Oct 15)", bonuses: "Hiss Corruption Outfit, Pickpocket's Tool Artifact" },
+          { platform: "Xbox Series", standard: "Yes (digital + physical)", steelbook: "Yes (physical, ships Oct 15)", bonuses: "Hiss Corruption Outfit, Pickpocket's Tool Artifact" },
         ],
       },
     ],
-    faqIds: ["what-editions-available", "what-are-preorder-bonuses", "is-collectors-edition-confirmed"],
+    faqIds: ["what-editions-available", "what-are-preorder-bonuses", "is-collectors-edition-confirmed", "when-do-physical-editions-ship"],
     relatedPageIds: ["fixed-release-status-en-US", "fixed-platforms-en-US", "fixed-overview-en-US"],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-19",
+    lastReviewed: "2026-09-22",
   },
 
   // ──────────────────────────────────────────────────────────────────────────
@@ -348,13 +386,13 @@ export const fixedPages: PageContent[] = [
     h1: "CONTROL Resonant Platforms and Launch Features",
     seoTitle: "CONTROL Resonant Platforms and Launch Features",
     metaDescription:
-      "CONTROL Resonant launches on PC (Steam), PS5, and Xbox Series. Per-platform notes, store links, and parity expectations as of 2026-09-19.",
+      "CONTROL Resonant launches on PC (Steam), PS5, and Xbox Series on September 24, 2026. GeForce NOW streams day one, Mac arrives later in 2026, Game Pass is not at launch.",
     summary:
-      "CONTROL Resonant launches simultaneously on PC via Steam, PlayStation 5, and Xbox Series on September 24, 2026, with no announced per-region availability differences as of 2026-09-19.",
+      "CONTROL Resonant launches simultaneously on PC via Steam, PlayStation 5, and Xbox Series on September 24, 2026 at 14:00 GMT. GeForce NOW streams day one, Mac arrives later in 2026, Game Pass is not at launch.",
     hero: {
       eyebrow: "Platforms",
       subtitle:
-        "Understand which platforms CONTROL Resonant launches on (PC / PS5 / Xbox) and any platform-specific features or limitations.",
+        "Understand which platforms CONTROL Resonant launches on (PC / PS5 / Xbox) and where to play on launch day (Steam, GeForce NOW, future Mac).",
       ctas: [
         { label: "Release Status", href: "/release-status" },
         { label: "Editions", href: "/editions" },
@@ -362,13 +400,13 @@ export const fixedPages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "CONTROL Resonant launches on PC via Steam, PlayStation 5, and Xbox Series on September 24, 2026. All three storefronts are taking pre-orders or wishlists. Per-region availability, platform-exclusive content, and platform-specific features have not been announced by Remedy as of 2026-09-19.",
+      "CONTROL Resonant launches on PC via Steam, PlayStation 5, and Xbox Series on September 24, 2026 at 14:00 GMT. GeForce NOW streams the game day one for under-spec PCs and Macs. A native macOS build arrives later in 2026. Game Pass is not included at launch. All three storefronts are taking pre-orders or wishlists.",
     keyFacts: [
-      { label: "PC", value: "Steam (AppID 3669870)" },
-      { label: "PlayStation 5", value: "PlayStation Store" },
-      { label: "Xbox Series", value: "Xbox Store" },
-      { label: "Per-region availability", value: "Not announced as of 2026-09-19" },
-      { label: "Platform-exclusive content", value: "Not announced as of 2026-09-19" },
+      { label: "PC", value: "Steam (AppID 3669870) day one, GeForce NOW day one" },
+      { label: "PlayStation 5", value: "PlayStation Store, 48-hour Deluxe early access Sept 22" },
+      { label: "Xbox Series", value: "Xbox Store, not on Game Pass at launch" },
+      { label: "GeForce NOW", value: "Day one streaming from September 24" },
+      { label: "Mac", value: "Native client later in 2026" },
     ],
     modules: [
       {
@@ -376,7 +414,7 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "PC via Steam",
         body:
-          "The Steam store page (AppID 3669870) is the canonical PC storefront for CONTROL Resonant. Pre-order is live, and the Steam listing carries two confirmed pre-order bonus items: the Hiss Corruption Outfit and the Pickpocket's Tool Artifact. PC players receive a digital-only Standard edition; a Steelbook SKU is not sold on PC. Minimum PC specifications are listed on the system-requirements page. Status as of 2026-09-19: no Remedy news post has confirmed platform parity details specific to PC (such as ultrawide support, frame-rate targets, or HDR).",
+          "The Steam store page (AppID 3669870) is the canonical PC storefront for CONTROL Resonant. Pre-order is live, and the Steam listing carries two confirmed pre-order bonus items: the Hiss Corruption Outfit and the Pickpocket's Tool Artifact. PC players receive a digital-only Standard edition; a Steelbook SKU is not sold on PC. Pre-load opens September 20 (Deluxe) and September 22 (Standard). Minimum PC specifications are listed on the system-requirements page. Status as of 2026-09-22: no Remedy news post has confirmed platform parity details specific to PC (such as ultrawide support, frame-rate targets, or HDR).",
         links: [
           { label: "System Requirements", href: "/system-requirements", description: "Minimum PC specs from the Steam store." },
           { label: "Editions", href: "/editions", description: "Standard edition and pre-order bonuses." },
@@ -387,21 +425,28 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "PlayStation 5",
         body:
-          "CONTROL Resonant is listed on the PlayStation Store with pre-order available for both the Standard digital edition and the Steelbook physical variant. The Steelbook case is the highest physical SKU for the PS5 launch window. Status as of 2026-09-19: PS5-specific feature announcements (such as DualSense haptics integration, activity card support, or 4K/HDR targets) have not been published by Remedy. The PS5 listing page on the PlayStation Store is the canonical source for platform-specific launch details as Remedy publishes them.",
+          "CONTROL Resonant is listed on the PlayStation Store with pre-order available for both the Standard digital edition and the Steelbook physical variant. PS5 Deluxe owners get a 48-hour early-access window starting September 22, 2026 at 14:00 GMT. Standard and Deluxe digital pre-load opens September 22; physical editions ship October 15. Status as of 2026-09-22: PS5-specific feature announcements (such as DualSense haptics integration, activity card support, or 4K/HDR targets) have not been published by Remedy. The PS5 listing page on the PlayStation Store is the canonical source for platform-specific launch details as Remedy publishes them.",
       },
       {
         id: "platforms-xbox",
         type: "prose",
         heading: "Xbox Series",
         body:
-          "CONTROL Resonant is listed on the Xbox Store with pre-order available for both the Standard digital edition and the Steelbook physical variant. The Steelbook case is the highest physical SKU for the Xbox Series launch window. Status as of 2026-09-19: Xbox-specific feature announcements (such as Smart Delivery details, Quick Resume support, or 4K/HDR targets) have not been published by Remedy. The Xbox Store listing is the canonical source for platform-specific launch details as Remedy publishes them. Game Pass inclusion is not announced as of 2026-09-19.",
+          "CONTROL Resonant is listed on the Xbox Store with pre-order available for both the Standard digital edition and the Steelbook physical variant. The Steelbook case is the highest physical SKU for the Xbox Series launch window. Game Pass is not included at launch; Xbox players who want it day one must buy it through the Xbox Store. Status as of 2026-09-22: Xbox-specific feature announcements (such as Smart Delivery details, Quick Resume support, or 4K/HDR targets) have not been published by Remedy. The Xbox Store listing is the canonical source for platform-specific launch details as Remedy publishes them.",
+      },
+      {
+        id: "platforms-cloud",
+        type: "prose",
+        heading: "GeForce NOW and Mac",
+        body:
+          "GeForce NOW streams CONTROL Resonant from launch day (September 24). Players on under-spec PCs, Macs without a native client, Chromebooks, or other GeForce NOW-supported devices can stream the game without a local install. A native macOS client arrives later in 2026, after the September 24 Windows launch. Until the native Mac build ships, GeForce NOW is the recommended path for Mac players who want to play on day one.",
       },
     ],
-    faqIds: ["what-platforms-launch", "is-control-resonant-on-ps5", "is-control-resonant-on-xbox"],
+    faqIds: ["what-platforms-launch", "is-control-resonant-on-ps5", "is-control-resonant-on-xbox", "is-control-resonant-on-geforce-now", "is-control-resonant-on-mac"],
     relatedPageIds: ["fixed-release-status-en-US", "fixed-editions-en-US", "fixed-system-requirements-en-US"],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-19",
+    lastReviewed: "2026-09-22",
   },
 
   // ──────────────────────────────────────────────────────────────────────────
@@ -433,13 +478,15 @@ export const fixedPages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "Dylan Faden is the playable protagonist of CONTROL Resonant, replacing his sister Jesse Faden (former FBC Director from the 2019 original) as the lead. The shapeshifting Aberrant is the signature weapon. The Hiss and Mold return as antagonists, drawn from the established Remedy / 2019 CONTROL lore.",
+      "Dylan Faden is the playable protagonist of CONTROL Resonant, replacing his sister Jesse Faden (former FBC Director from the 2019 original) as the lead. The shapeshifting Aberrant is his signature weapon and the centrepiece of the new combat system, with four confirmed forms (hammer, blades, scythe, fists) tied to the Reach / Shift / Gravitational Anomalies toolkit and a Gap-based progression loop. The Hiss and Mold return as antagonists.",
     keyFacts: [
       { label: "Protagonist", value: "Dylan Faden" },
       { label: "Sister", value: "Jesse Faden (2019 CONTROL protagonist, FBC Director)" },
-      { label: "Signature weapon", value: "The Aberrant (shapeshifting)" },
+      { label: "Signature weapon", value: "The Aberrant (shapeshifting, four confirmed forms)" },
+      { label: "Ability toolkit", value: "Reach, Shift, Gravitational Anomalies" },
+      { label: "Progression space", value: "The Gap — Talents and Artifacts layer into build archetypes" },
       { label: "Antagonists", value: "Hiss, Mold" },
-      { label: "Supporting cast", value: "Not yet announced by Remedy as of 2026-09-19" },
+      { label: "Supporting cast", value: "Not yet announced by Remedy as of 2026-09-22" },
     ],
     modules: [
       {
@@ -447,7 +494,7 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "Dylan Faden — Protagonist",
         body:
-          "Dylan Faden is the playable lead of CONTROL Resonant. He is the brother of Jesse Faden, the protagonist of the 2019 CONTROL and the sitting Director of the Federal Bureau of Control at the start of the sequel. Dylan inherits the Aberrant, a shapeshifting weapon that drives the new combat system. His role shifts the player perspective from the Director-led 2019 game to the family member caught in the Oldest House's failed lockdown.",
+          "Dylan Faden is the playable lead of CONTROL Resonant. He is the brother of Jesse Faden, the protagonist of the 2019 CONTROL and the sitting Director of the Federal Bureau of Control at the start of the sequel. Dylan inherits the Aberrant, a shapeshifting weapon that drives the new combat system, and progresses through the Gap where Talents and Artifacts layer into his melee-focused build archetypes. His role shifts the player perspective from the Director-led 2019 game to the family member caught in the Oldest House's failed lockdown.",
       },
       {
         id: "characters-jesse",
@@ -461,7 +508,10 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "The Aberrant — Shapeshifting Weapon",
         body:
-          "The Aberrant is the signature weapon of CONTROL Resonant, inherited by Dylan Faden. It is described as a shapeshifting weapon that adapts form during combat, anchoring the game's supernatural combat loop. The Aberrant replaces the Service Weapon-and-ability loadout of the 2019 CONTROL and is the centrepiece of the new progression system. It is treated as confirmed current-game content by the Steam store page.",
+          "The Aberrant is the signature weapon of CONTROL Resonant, inherited by Dylan Faden. It is a shapeshifting weapon that adapts between four confirmed forms during combat — hammer, blades, scythe, and fists — each suited to a different combat role. The Aberrant is the centrepiece of the new progression system and replaces the Service Weapon-and-ability loadout of the 2019 CONTROL. The full forms, Reach / Shift / Gravitational Anomalies toolkit, and Gap progression loop are detailed on the Aberrant & Abilities page.",
+        links: [
+          { label: "Aberrant & Abilities", href: "/aberrant-abilities", description: "Forms, abilities, and the Gap progression loop." },
+        ],
       },
       {
         id: "characters-antagonists",
@@ -476,14 +526,14 @@ export const fixedPages: PageContent[] = [
         tone: "caution",
         title: "Supporting Cast Status",
         body:
-          "Status as of 2026-09-19: Remedy has not announced a full supporting cast beyond Dylan Faden, Jesse Faden, the Aberrant, the Hiss, and Mold. Any further named characters should be treated as not yet announced until Remedy or the launch credits confirm them.",
+          "Status as of 2026-09-22: Remedy has not announced a full supporting cast beyond Dylan Faden, Jesse Faden, the Aberrant, the Hiss, and Mold. Any further named characters should be treated as not yet announced until Remedy or the launch credits confirm them.",
       },
     ],
     faqIds: ["who-is-protagonist-control-resonant", "what-is-the-aberrant", "are-hiss-and-mold-returning"],
-    relatedPageIds: ["fixed-oldest-house-en-US", "fixed-new-player-primer-en-US", "fixed-overview-en-US"],
+    relatedPageIds: ["fixed-oldest-house-en-US", "fixed-new-player-primer-en-US", "fixed-overview-en-US", "fixed-aberrant-abilities-en-US"],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-19",
+    lastReviewed: "2026-09-22",
   },
 
   // ──────────────────────────────────────────────────────────────────────────
@@ -801,5 +851,107 @@ export const fixedPages: PageContent[] = [
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
     lastReviewed: "2026-09-19",
+  },
+
+  // ──────────────────────────────────────────────────────────────────────────
+  // /aberrant-abilities — Aberrant forms, abilities, and the Gap progression loop
+  // ──────────────────────────────────────────────────────────────────────────
+  {
+    id: "fixed-aberrant-abilities-en-US",
+    translationKey: "aberrant-abilities",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "aberrant-abilities",
+    url: "/aberrant-abilities",
+    pageType: "wiki",
+    presentation: { shell: "content", variant: "reading-right-rail" },
+    h1: "CONTROL Resonant Aberrant Forms and Abilities - The Gap",
+    seoTitle: "CONTROL Resonant Aberrant Forms and Abilities - The Gap",
+    metaDescription:
+      "The Aberrant has four confirmed shapeshifting forms (hammer, blades, scythe, fists). Reach, Shift, and Gravitational Anomalies are the core abilities, and the Gap is the progression space where Talents and Artifacts layer into build archetypes.",
+    summary:
+      "The Aberrant is Dylan Faden's shapeshifting weapon in CONTROL Resonant. It has four confirmed forms — hammer, blades, scythe, fists — paired with the Reach / Shift / Gravitational Anomalies toolkit. The Gap is the progression space where Talents and Artifacts layer into build archetypes.",
+    hero: {
+      eyebrow: "Aberrant & Abilities",
+      subtitle:
+        "See the four confirmed Aberrant forms, the Reach / Shift / Gravitational Anomalies toolkit, and how the Gap turns them into build archetypes.",
+      ctas: [
+        { label: "Characters", href: "/characters" },
+        { label: "Release Status", href: "/release-status" },
+        { label: "Walkthrough", href: "/walkthrough" },
+      ],
+    },
+    quickAnswer:
+      "The Aberrant is Dylan Faden's shapeshifting weapon in CONTROL Resonant. It has four confirmed forms: hammer (heavy single-target), blades (fast combo), scythe (wide AoE), and fists (close-range brawler). The core ability toolkit is Reach, Shift, and Gravitational Anomalies. Progression happens in the Gap, where Talents and Artifacts layer onto a chosen form to build distinct archetypes.",
+    keyFacts: [
+      { label: "Confirmed forms", value: "Hammer, Blades, Scythe, Fists" },
+      { label: "Core abilities", value: "Reach, Shift, Gravitational Anomalies" },
+      { label: "Progression space", value: "The Gap" },
+      { label: "Build layers", value: "Talents + Artifacts on top of form choice" },
+      { label: "Unrevealed forms", value: "At least one unrevealed form expected at launch" },
+    ],
+    modules: [
+      {
+        id: "aberrant-overview",
+        type: "prose",
+        heading: "What the Aberrant Is",
+        body:
+          "The Aberrant is the signature weapon of CONTROL Resonant, inherited by Dylan Faden. It replaces the 2019 CONTROL's Service Weapon-and-ability loadout and is the centrepiece of the new combat system. Unlike a fixed gun with alternate firing modes, the Aberrant is a shapeshifting weapon: it adapts between named forms mid-combat, each form changing range, swing arc, and damage profile. The four forms listed below are the confirmed launch roster; pre-launch coverage also references additional unrevealed forms that the launch build will fill in.",
+      },
+      {
+        id: "aberrant-forms-table",
+        type: "data-table",
+        heading: "Confirmed Aberrant Forms",
+        columns: [
+          { key: "form", label: "Form" },
+          { key: "role", label: "Combat Role" },
+          { key: "bestFor", label: "Best For" },
+        ],
+        rows: [
+          { form: "Hammer", role: "Heavy single-target melee", bestFor: "Staggering elite Hiss and breaking Mold walls" },
+          { form: "Blades", role: "Fast dual-wield combo", bestFor: "Mob clear and short-range DPS windows" },
+          { form: "Scythe", role: "Wide-arc area-of-effect", bestFor: "Grouping clusters of Hiss in warped Manhattan zones" },
+          { form: "Fists", role: "Close-range brawler", bestFor: "Hyper-aggressive stagger chains when parry is mastered" },
+        ],
+      },
+      {
+        id: "aberrant-abilities",
+        type: "prose",
+        heading: "Reach, Shift, and Gravitational Anomalies",
+        body:
+          "The Aberrant's combat toolkit is built around three named abilities, all confirmed by Remedy and the launch coverage: Reach lets Dylan extend a hit beyond his current position to pull, push, or strike distant targets; Shift moves Dylan or the Aberrant through space, used for closing distance and for repositioning out of telegraphed AoE; Gravitational Anomalies manipulate physics around the Aberrant's swing, lifting, slamming, or compressing objects and enemies. Each form draws on these abilities differently — Hammer amplifies Reach into a pull-pounce, Blades weave Shift into dash-cancel combos, Scythe uses Gravitational Anomalies to gather groups, and Fists leans on Shift frames to stay glued to a single target.",
+      },
+      {
+        id: "aberrant-gap",
+        type: "prose",
+        heading: "The Gap as Progression Space",
+        body:
+          "The Gap is the in-fiction and mechanical progression space where Dylan levels up the Aberrant and his personal toolkit. Inside the Gap, Talents are the passive and active nodes that define a build archetype (for example, a hammer-centric Reach-heavy stagger build vs. a scythe + Gravitational Anomalies crowd-control build). Artifacts are equippable modifiers that layer on top of Talents and the chosen form, shaping secondary effects like cooldown reduction, status application, or survivability. The combination of form choice + Talent path + Artifact loadout is what defines a CONTROL Resonant build, and the Gap is where those choices are made and refined across the campaign.",
+      },
+      {
+        id: "aberrant-builds",
+        type: "comparison",
+        heading: "Build Archetypes at a Glance",
+        options: [
+          { name: "Hammer + Reach", summary: "Heavy stagger and single-target deletion, built around Reach pulls and slow Gravitational Anomaly slams.", bestFor: "Elite Hiss encounters and boss windows", badge: "Tank" },
+          { name: "Blades + Shift", summary: "Fast combo DPS with dash-cancel windows, leaning on Shift for repositioning and Reach as a finisher.", bestFor: "Mob clear with quick disengage", badge: "Skirmisher" },
+          { name: "Scythe + Gravitational Anomalies", summary: "AoE crowd control using Gravitational lifts and Reach pulls to group enemies into scythe arcs.", bestFor: "Wide warped Manhattan engagements", badge: "Controller" },
+          { name: "Fists + Shift", summary: "Close-range brawler with Shift-frame cancels; high risk, high uptime on a single target.", bestFor: "Players who master parry and stagger chaining", badge: "Berserker" },
+        ],
+      },
+      {
+        id: "aberrant-unrevealed",
+        type: "callout",
+        tone: "confirmed",
+        title: "Unrevealed Forms",
+        body:
+          "Pre-launch coverage flags the four forms above as confirmed and references at least one additional unrevealed form that the launch build will introduce. This page will list every launched form once the September 24 launch exposes the full roster. Treat any fifth-or-later form mentioned before launch as community speculation until Remedy or the launch credits confirm it.",
+      },
+    ],
+    faqIds: ["what-is-the-aberrant", "how-many-aberrant-forms", "what-are-reach-shift-gravitational-anomalies", "what-is-the-gap", "how-do-talents-and-artifacts-work"],
+    relatedPageIds: ["fixed-characters-en-US", "fixed-release-status-en-US", "fixed-walkthrough-en-US", "fixed-overview-en-US"],
+    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-22",
   },
 ];

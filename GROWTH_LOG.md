@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-22 - Launch-day details and Aberrant & Abilities
+
+- Task: Refresh release-status, platforms, editions, and characters with confirmed launch-day details and add a dedicated Aberrant & Abilities page covering the four shapeshifting forms, Reach / Shift / Gravitational Anomalies, and the Gap progression loop.
+- Files changed: `src/data/pages/fixed-pages.ts` (release-status, platforms, editions, characters blocks plus new `/aberrant-abilities` block), `src/data/pages/home.ts`, `src/data/faq.ts`, `src/data/navigation.ts`, `CONTENT_INDEX.md`, `GROWTH_LOG.md`.
+- URLs affected: `/`, `/release-status`, `/platforms`, `/editions`, `/characters`, plus new `/aberrant-abilities`.
+- Launch facts updated: Sept 24 14:00 GMT global unlock; Sept 18 6:00 AM PT review-embargo lift; Sept 20 (Deluxe) / Sept 22 (Standard) pre-load; PS5 Deluxe 48-hour early access starting Sept 22; Game Pass not at launch; GeForce NOW day one; Mac later 2026; physical editions ship Oct 15.
+- Combat coverage added: four Aberrant forms (hammer, blades, scythe, fists), Reach / Shift / Gravitational Anomalies toolkit, the Gap as the progression space, Talents + Artifacts layering into build archetypes.
+- Verification: typecheck, lint, template/content/SEO validation, route-manifest, and full verify all pass.
+
 ### 2026-09-20 - Adsterra fixed six-unit integration
 
 - Task: Replace the placeholder Adsterra units in `src/data/ads.ts` with real codes collected from the Adsterra publisher dashboard for `controlresonant.pro`.
